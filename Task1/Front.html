@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌡️ Temperature Converter</h1>
+        
+        <div class="converter-grid">
+            <div class="input-group">
+                <label for="tempInput">Enter Temperature:</label>
+                <input
+                    type="number"
+                    id="tempInput"
+                    placeholder="Enter a temperature value"
+                    step="any"
+                >
+            </div>
+            <div class="input-group">
+                <label for="fromUnit">From:</label>
+                <select id="fromUnit" style="width: 100%; padding: 15px 20px; border: 2px solid #e1e5e9; border-radius: 12px; font-size: 1.2rem; background: #f8f9fa;">
+                    <option value="celsius">Celsius (°C)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="result-grid" id="results">
+            <div class="result-card celsius-card">
+                <div class="result-label">Celsius</div>
+                <div class="result-value" id="celsiusResult">--°C</div>
+            </div>
+            <div class="result-card fahrenheit-card">
+                <div class="result-label">Fahrenheit</div>
+                <div class="result-value" id="fahrenheitResult">--°F</div>
+            </div>
+            <div class="result-card kelvin-card">
+                <div class="result-label">Kelvin</div>
+                <div class="result-value" id="kelvinResult">--K</div>
+            </div>
+        </div>
+        <button class="clear-btn" onclick="clearAll()">Clear All</button>
+        <div class="info">
+            💡 Enter a temperature value and select the input unit. The converter will automatically show the equivalent temperatures in all three scales.
+        </div>
+    </div>
+    <script src="Temp.js"></script>
+</body>
+</html>
