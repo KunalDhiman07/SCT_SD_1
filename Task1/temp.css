@@ -6,7 +6,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #fe0000 0%, #ff9100 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -15,7 +15,7 @@
         }
 
         .container {
-            background: rgba(255, 255, 255, 0.95);
+            background: rgb(255, 255, 255);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 40px;
@@ -97,12 +97,12 @@
         }
 
         .result-card {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            background: linear-gradient(135deg, #f093fb 0%, #ff0224 100%);
             color: white;
             padding: 20px;
             border-radius: 15px;
             text-align: center;
-            box-shadow: 0 10px 20px rgba(240, 147, 251, 0.3);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s ease;
         }
 
@@ -126,11 +126,11 @@
         }
 
         .kelvin-card {
-            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            background: linear-gradient(135deg, #ff004c 0%, #fee140 100%);
         }
 
         .fahrenheit-card {
-            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            background: linear-gradient(135deg, #00fff2 0%, #fed6e3 100%);
         }
 
         .clear-btn {
