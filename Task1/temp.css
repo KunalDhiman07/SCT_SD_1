@@ -38,7 +38,7 @@
 
         h1 {
             text-align: center;
-            color: #333;
+            color: #000000;
             margin-bottom: 30px;
             font-size: 2.5rem;
             font-weight: 300;
@@ -154,17 +154,6 @@
 
         .clear-btn:active {
             transform: translateY(0);
-        }
-
-        .info {
-            text-align: center;
-            color: #666;
-            font-size: 0.9rem;
-            margin-top: 20px;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 10px;
-            border-left: 4px solid #667eea;
         }
 
         @media (max-width: 600px) {
